@@ -1,10 +1,12 @@
+# Arquivo README de ajuda
 HELP.md
+
+# Diretórios de build gerados pelo Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Arquivos de configuração de IDEs (Spring Tool Suite - STS)
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +15,27 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# Arquivos de configuração do NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 build/
+
+# Excluir builds gerados em pastas específicas
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# Configurações do Visual Studio Code
 .vscode/
+
+# Arquivo de propriedades do Spring (não deve ser versionado em produção)
+src/main/resources/application.properties
+
